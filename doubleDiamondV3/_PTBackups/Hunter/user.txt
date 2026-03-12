@@ -1,0 +1,10 @@
+5
+Hunter
+1000
+0
+0
+0
+0
+0
+Customer
+IGT

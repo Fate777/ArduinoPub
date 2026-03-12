@@ -1,0 +1,21 @@
+1 - 1 credit
+2 - 2 credit
+3 - 3 credit
+4 - reelSpin 1
+5 - reelSpin 2
+6 - reelSpin 3
+7 - reelSpin 4
+10 - Winner
+11 - LHA
+12 - Cash Out
+13 - Welcome
+20 - Haywire
+98 - Progressive (Major)
+99 - Progressive (Grand)
+
+1 - IGTLegacy
+2 - IGTEnhanced
+3 - TwinWin
+4 - GameKing
+5 - Aristocrat
+6 - Kendrick
