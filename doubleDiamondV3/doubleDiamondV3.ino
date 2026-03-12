@@ -124,7 +124,7 @@ const int hwCherryMaxAmount = 10, hwAnyBarMaxAmount = 4, hwSingleBarMaxAmount = 
 const int reelStops = 50;
 const int reelSpeed = 750; //BU: Used in spinReels logic
 const int startingPlayerID = 1; //Refer to playerList to see who to start out (MUST EXIST IN PLAYER TRACKING SD CARD)
-const int startingVolume = 30;   //15 is good!
+const int startingVolume = 15;   //15 is good!
 
 const int reel1Arr[50] = {0,0,0,0,0,0,0,0,0,0,
                           0,0,0,0,0,0,0,0,0,0,
@@ -951,10 +951,6 @@ void displayResultOnLCD(int resultLoc) {
     else if (resultLoc >= 2500)
     {
       playSound("prog-grand");
-    }
-    else
-    {
-      playSound("winner");
     }
     if (resultLoc > 0) {
       lcd.clear();
