@@ -62,6 +62,9 @@
                   - Initial File I/O into SD for player tracking
   03/11/2026  -   More Features
   VERSION 5       - Initial implementation of sound bank info & sound output to DFPlayer Mini module
+  03/12/2026  -   Urgent Bug Fix
+                  - Fixed "winner" sound playing constantly instead of just in the winning condition.
+                    - Caused by hotfix of sound implementation on progressive jackpots.
   
   ToDo / WIP Features
   - HIGH PRIORITY
@@ -123,8 +126,8 @@ const int hwCherryChance = 4, hwAnyBarChance = 8, hwSingleBarChance = 8, hwDoubl
 const int hwCherryMaxAmount = 10, hwAnyBarMaxAmount = 4, hwSingleBarMaxAmount = 3, hwDoubleBarMaxAmount = 2, hwTripleBarMaxAmount = 1, hw7sMaxAmount = 1, hwDCMaxAmount = 10;
 const int reelStops = 50;
 const int reelSpeed = 750; //BU: Used in spinReels logic
-const int startingPlayerID = 1; //Refer to playerList to see who to start out (MUST EXIST IN PLAYER TRACKING SD CARD)
-const int startingVolume = 15;   //15 is good!
+const int startingPlayerID = 2; //Zero-based starting point due to array data type, refer to playerList to see who to start out (MUST EXIST IN PLAYER TRACKING SD CARD)
+const int startingVolume = 18;   //15 is good!
 
 const int reel1Arr[50] = {0,0,0,0,0,0,0,0,0,0,
                           0,0,0,0,0,0,0,0,0,0,
