@@ -1428,7 +1428,7 @@ https://www.amazon.com/Amazon-Basics-External-Gold-Plated-Connectors/dp/B00NH11K
   4 - Cherry           (1 - 2x, 2 - 5x, 3 - 10x)
   7 - Red Seven        (3 - 80x)
   8 - "Double Diamond" (Wild, 2x multi, 3 - 800x)
-  9 - "DC"
+  9 - "DC"              //BU: Aka: The "Death Cherry". It's the reciprocal of the normal cherry, but if you hit all 3 on the pay line (which is a (1/50)^3 chance of ever happening), it's a "Bankrupt" + 1 on existing credits.
 
   //FOR FUTURE DEVELOPMENT - Reserve for possible bonus symbols
   5 - Top Dollar
