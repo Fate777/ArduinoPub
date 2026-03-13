@@ -78,7 +78,6 @@
     - Password check for certain playerTypes
     - Pinball Bonus
     - Top Dollar Bonus
-    - Haywire Feature (extra spins on certain wins)
     - Wild+ Extra spin (Everi Patriot Extra Spin style, grant 1 extra spin w/ held wilds if at least 1 double diamond exists)
   - LOW PRIORITY / BRAINSTORMING
     - Player tracking (Joint Accounts)
